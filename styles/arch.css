@@ -195,5 +195,23 @@ margin-bottom: 30px;
              padding: 20px 50px 30px;
              
          }
-    
+
+         /* header section responsive done end here  */
+         main{
+             padding: 0 30px;
+         }
+         .feature-img-container > img {
+            width: 160px;
+        }
+        .description{
+            font-size: 13px;
+            line-height: normal;
+            margin-bottom: 10px;
+            margin-top: 15px;
+        }
+        .feature-btn{
+            font-size: 15px;
+
+
+        }
 }
