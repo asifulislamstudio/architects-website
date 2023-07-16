@@ -153,6 +153,28 @@ margin-bottom: 30px;
         margin: 0 auto;
         text-align: center;
     }
+    /* header section done and end here  */
+    .feature{
+        flex-direction: column-reverse;
+    }
+    main{
+        padding: 0px 0px;
+    }
+    .feature-content {
+        margin-left: 0px;
+        /* text-align: center; */
+        padding: 0px 20px;
+    }
+
+    .feature-img-container{
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin: 20px 0px;
+    }
+    .feature-img-container > img{
+        width: auto;
+    }
+
 
     
 }
