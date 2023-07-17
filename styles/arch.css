@@ -153,6 +153,30 @@ line-height: normal;
     justify-content: space-between;
     padding: 20px 20px;
 }
+/* fact section done here  */
+/* sponsore section start here  */
+.sponsore{
+    margin-top: 150px;
+}
+
+
+.sponsore-intro{
+    text-align: center;
+}
+.sponsore-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+.sh{
+
+}
+
+.sponsore-logo > img {
+    width: 160px;
+}
 
 
 
@@ -219,6 +243,19 @@ line-height: normal;
         text-align: center;
         margin: 0 20px;
      }
+
+    /* fact section end here  */
+    .sponsore-logo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 20px;
+        margin: 0 30px;
+    }
+    .sponsore-logo > img {
+        width: 120px;
+    }
+    
+
 
 
    /* mobile device media queries end here   */
