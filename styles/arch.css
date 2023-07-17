@@ -124,6 +124,35 @@ line-height: 26px; /* 162.5% */
 margin-top: 22px;
 margin-bottom: 30px;
 }
+/* feature section style done  */
+/* experience section start here  */
+/* experience end here  */
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border: 2px solid #FF900E;
+    padding: 40px 24px;
+    text-align:center;
+}
+.counter{
+color:#424242;
+font-size: 45px;
+font-weight: 600;
+}
+.box-name{
+color: #727272;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.fact-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
 
 
 
@@ -174,9 +203,25 @@ margin-bottom: 30px;
     .feature-img-container > img{
         width: auto;
     }
+    /* feature section responsive done  */
+    /* experience section responsive start here  */
+
+    /* expreience section responsve end here  */
+     /* fact section responsive start here  */
+     .fact-box{
+        flex-direction: column;
+        row-gap: 20px;
+     }
+     .box{
+         width: 285px;
+     }
+     .fact-info{
+        text-align: center;
+        margin: 0 20px;
+     }
 
 
-    
+   /* mobile device media queries end here   */
 }
 
 /* table deveice or Medium Device response  */
