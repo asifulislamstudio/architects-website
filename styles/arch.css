@@ -126,6 +126,70 @@ margin-bottom: 30px;
 }
 /* feature section style done  */
 /* experience section start here  */
+
+.experience{
+    display: flex;
+    align-items: center;
+    gap: 0px 140px;
+    margin-bottom: 100px;
+    
+}
+.ex-head{
+    border-left: 4px solid  #FF900E;
+    padding-left: 20px;
+}
+.ex-des{
+    margin-left: 20px;
+}
+#arch{
+    width: 32rem;
+}
+.arch-badg{
+    width: 300px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 30px 25px;
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+}
+.ten{
+    color: #FFF;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+#ex{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+}
+.card{
+    width: 32rem;
+    height: 150px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.box-title{
+    color:  #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+.box-description{
+color: #727272;
+font-size: 0.9rem;
+font-weight: 400;
+margin-top: 10px;
+}
+
+
 /* experience end here  */
 .box{
     width: 200px;
@@ -180,12 +244,13 @@ line-height: normal;
     margin: 80px 250px;
     text-align: center;
 }
-footer > h3{
+.footer-text{
 color: #424242;
 text-align: center;
-font-size: 20px;
+font-size: 1rem;
 font-weight: 400;
 }
+
 
 
 
@@ -237,6 +302,7 @@ font-weight: 400;
     }
     /* feature section responsive done  */
     /* experience section responsive start here  */
+  
 
     /* expreience section responsve end here  */
      /* fact section responsive start here  */
@@ -247,9 +313,10 @@ font-weight: 400;
      .box{
          width: 285px;
      }
-     .fact-info{
+     .facts-info{
         text-align: center;
-        margin: 0 20px;
+        margin: 10px auto;
+        
      }
 
     /* fact section end here  */
@@ -261,6 +328,20 @@ font-weight: 400;
     }
     .sponsore-logo > img {
         width: 120px;
+    }
+    footer{
+        margin: 80px 0px;
+    }
+
+
+    .copyright{
+        padding: 10px;
+        margin: 20px 5px;
+        text-align: center;
+    }
+    .footer-txt{
+        font-size: 0.8rem;
+
     }
     
 
